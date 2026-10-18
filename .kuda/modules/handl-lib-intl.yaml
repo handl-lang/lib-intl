@@ -1,0 +1,21 @@
+name: handl-lib-intl
+path: Cargo.toml
+purpose: 'intl: Handl stdlib port (ADR-0128 split).'
+api:
+- name: handl-lib-intl
+  kind: module
+  file: Cargo.toml
+  line: 1
+  module: handl-lib-intl
+deps: []
+notes: ''
+verify:
+- Cargo.toml
+provenance:
+  files:
+  - Cargo.toml
+  hashes:
+  - 18d74c580fe171158fccee6ca4a267e6a0934d8b
+  commit_sha: 94f0d075d8a4f3c254150aa60539d5c147d4c4e2
+  generated_at: '1792281225'
+  generator: kuda-template/0.1.0
