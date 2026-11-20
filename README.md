@@ -2,7 +2,18 @@
 
 `intl` — Handl stdlib port (pure handl).
 
-Part of the stdlib → `lib-*` split (ADR-0128); moved from `stdlib/handl-packages/intl/`.
+## Layout
+
+```text
+src/        the .hnl sources
+pkg.hnl     package manifest — modules, deps, description, license
+```
+
+## Gate
+
+```bash
+HNL=../host-cli/target/debug/hnl scripts/hnl-gate.sh
+```
 
 ## License
 
