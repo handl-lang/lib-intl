@@ -1,19 +1,14 @@
 name: lib-intl
 root: /home/luis/GitHub/handl-lang/lib-intl
-purpose: ''
-modules:
-- handl-lib-intl
-- lib-intl
-commands:
-- cargo check
-- cargo test --workspace
+purpose: '`intl` — Handl stdlib port (pure handl).'
+modules: []
+commands: []
+tree_digest: da39a3ee5e6b4b0d3255bfef95601890afd80709
 provenance:
   files:
-  - Cargo.toml
-  - src/lib.rs
+  - README.md
   hashes:
-  - 18d74c580fe171158fccee6ca4a267e6a0934d8b
-  - 3664cd79fba60ff07f4ece713d74bd16b68510bd
-  commit_sha: 94f0d075d8a4f3c254150aa60539d5c147d4c4e2
-  generated_at: '1792281225'
+  - 416485e12ef439966bd9c532510b8005135f805a
+  commit_sha: 967196ce838ddf72e0a40724dfdca9ec39425780
+  generated_at: '1795484421'
   generator: kuda/0.1.0
