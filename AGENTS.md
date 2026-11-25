@@ -1,3 +1,28 @@
+# lib-intl
+
+`intl` — internationalization (Handl stdlib port, pure handl).
+
+## Layout
+
+| path | role |
+| --- | --- |
+| `src/index.hnl` | the library entry |
+| `pkg.hnl` | manifest — `modules: ["intl"]` |
+| `scripts/hnl-gate.sh` | `.hnl` gate |
+| `workflows/gate.yaml` | CI — shared `handl-gates` campaign |
+
+## Contract
+
+- Pure `.hnl`, no Rust crate; vendored by consumers via
+  `handl-pkg-vendor`.
+- The native-speed counterpart is `lib-intl-c` (ICU4C backend).
+
+## Verification
+
+```bash
+HNL=../host-cli/target/debug/hnl scripts/hnl-gate.sh
+```
+
 <!-- myco:agent-awareness -->
 
 ## Agent awareness
